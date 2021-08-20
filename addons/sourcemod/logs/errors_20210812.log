@@ -1,0 +1,44 @@
+L 08/12/2021 - 19:20:27: SourceMod error session started
+L 08/12/2021 - 19:20:27: Info (map "c2m1_highway") (file "e:\steamlibrary\steamapps\common\left 4 dead 2 dedicated server\left4dead2\addons\sourcemod\logs\errors_20210812.log")
+L 08/12/2021 - 19:20:27: [left4dhooks.smx] Failed to find signature: ForceNextStage
+L 08/12/2021 - 19:20:27: [left4dhooks.smx] Failed to find signature: CancelStagger
+L 08/12/2021 - 19:20:27: [left4dhooks.smx] Failed to find signature: RegisterForbiddenTarget
+L 08/12/2021 - 19:20:27: [left4dhooks.smx] Failed to find signature: UnRegisterForbiddenTarget
+L 08/12/2021 - 19:20:27: [left4dhooks.smx] Failed to load "UseHealingItems" signature.
+L 08/12/2021 - 19:20:36: [left4dhooks.smx] Failed to find signature: ForceNextStage
+L 08/12/2021 - 19:20:36: [left4dhooks.smx] Failed to find signature: CancelStagger
+L 08/12/2021 - 19:20:36: [left4dhooks.smx] Failed to find signature: RegisterForbiddenTarget
+L 08/12/2021 - 19:20:36: [left4dhooks.smx] Failed to find signature: UnRegisterForbiddenTarget
+L 08/12/2021 - 19:20:36: [left4dhooks.smx] Failed to load "UseHealingItems" signature.
+L 08/12/2021 - 19:20:45: Error log file session closed.
+L 08/12/2021 - 19:26:47: SourceMod error session started
+L 08/12/2021 - 19:26:47: Info (map "c2m1_highway") (file "e:\steamlibrary\steamapps\common\left 4 dead 2 dedicated server\left4dead2\addons\sourcemod\logs\errors_20210812.log")
+L 08/12/2021 - 19:26:47: [SM] Exception reported: Client index -1 is invalid
+L 08/12/2021 - 19:26:47: [SM] Blaming: optional\tailred\survivor_mvp.smx
+L 08/12/2021 - 19:26:47: [SM] Call stack trace:
+L 08/12/2021 - 19:26:47: [SM]   [0] IsFakeClient
+L 08/12/2021 - 19:26:47: [SM]   [1] Line 628, C:\Games\Steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\survivor_mvp.sp::PrintRemainingHealth
+L 08/12/2021 - 19:26:47: [SM]   [2] Line 144, C:\Games\Steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\survivor_mvp.sp::L4D2_OnRealRoundEnd
+L 08/12/2021 - 19:26:47: [SM]   [4] Call_Finish
+L 08/12/2021 - 19:26:47: [SM]   [5] Line 31, C:\Games\Steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\rounds.inc::Rounds_OnRoundEnd_Update
+L 08/12/2021 - 19:26:47: [SM]   [6] Line 113, l4d2lib.sp::RoundEnd_Event
+L 08/12/2021 - 19:27:57: [SM] Exception reported: Client 6 is not connected
+L 08/12/2021 - 19:27:57: [SM] Blaming: anticheat\l4d2_anticheat.smx
+L 08/12/2021 - 19:27:57: [SM] Call stack trace:
+L 08/12/2021 - 19:27:57: [SM]   [0] GetClientInfo
+L 08/12/2021 - 19:27:57: [SM]   [1] Line 213, C:\Games\Steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_anticheat.sp::GetLerpTime
+L 08/12/2021 - 19:27:57: [SM]   [2] Line 195, C:\Games\Steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_anticheat.sp::AdjustRates
+L 08/12/2021 - 19:27:57: [SM]   [3] Line 78, C:\Games\Steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_anticheat.sp::TimerAdjustRates
+L 08/12/2021 - 19:27:57: [SM] Exception reported: Client 6 is not in game
+L 08/12/2021 - 19:27:57: [SM] Blaming: server_function.smx
+L 08/12/2021 - 19:27:57: [SM] Call stack trace:
+L 08/12/2021 - 19:27:57: [SM]   [0] GetClientTeam
+L 08/12/2021 - 19:27:57: [SM]   [1] Line 389, server_function.sp::AdjustRates
+L 08/12/2021 - 19:27:57: [SM]   [2] Line 193, server_function.sp::TimerAdjustRates
+L 08/12/2021 - 19:28:09: [SM] Exception reported: Client 1 is fake and cannot be targeted
+L 08/12/2021 - 19:28:09: [SM] Blaming: server_function.smx
+L 08/12/2021 - 19:28:09: [SM] Call stack trace:
+L 08/12/2021 - 19:28:09: [SM]   [0] SendConVarValue
+L 08/12/2021 - 19:28:09: [SM]   [1] Line 391, server_function.sp::AdjustRates
+L 08/12/2021 - 19:28:09: [SM]   [2] Line 193, server_function.sp::TimerAdjustRates
+L 08/12/2021 - 19:28:19: Error log file session closed.
